@@ -6,7 +6,7 @@ $main-color: #006E9D;
    margin: 0;
    padding: 0;
 
-   h1, h2 {
+   h1, h2, i {
       font-family: 'Finger Paint', cursive;
    }
 
@@ -93,11 +93,27 @@ $main-color: #006E9D;
             left: 50%;
             transform: translate(-50%) rotate(180deg);
             width: 100vw;
-            top: 0;
+            top: -1px;
          }
    
          h2 {
             color: white !important;
+         }
+
+         blockquote {
+            text-align: center;
+            line-height: 50px;
+            i {
+               display: block;
+            }
+
+            .mission-quote-number, .kilo {
+               display: inline;
+            }
+
+            .mission-quote-number {
+               font-size: 4.5em;
+            }
          }
    
          .mission-bottom-wave { 

@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-* h1, * h2 {
+* h1, * h2, * i {
   font-family: 'Finger Paint', cursive;
 }
 
@@ -94,11 +94,28 @@
   -webkit-transform: translate(-50%) rotate(180deg);
           transform: translate(-50%) rotate(180deg);
   width: 100vw;
-  top: 0;
+  top: -1px;
 }
 
 * main .mission-section h2 {
   color: white !important;
+}
+
+* main .mission-section blockquote {
+  text-align: center;
+  line-height: 50px;
+}
+
+* main .mission-section blockquote i {
+  display: block;
+}
+
+* main .mission-section blockquote .mission-quote-number, * main .mission-section blockquote .kilo {
+  display: inline;
+}
+
+* main .mission-section blockquote .mission-quote-number {
+  font-size: 4.5em;
 }
 
 * main .mission-section .mission-bottom-wave {
