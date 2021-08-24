@@ -50,8 +50,9 @@
   display: block;
   background-color: white;
   padding: 10px 0;
-  margin: 10px 0;
+  margin: 10px auto;
   width: 100%;
+  max-width: 500px;
   color: #006E9D;
   font-weight: 500;
   border-radius: 8px;
@@ -126,7 +127,7 @@
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   width: 100vw;
-  bottom: 0;
+  bottom: -1px;
 }
 
 * main .team-section {
@@ -171,11 +172,15 @@
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   width: 100vw;
-  top: 0;
+  top: -1px;
 }
 
 * main .sponsorships-section h2 {
   color: white !important;
+}
+
+* main .sponsorships-section .sponsorship-level {
+  margin-bottom: 35px;
 }
 
 * main .sponsorships-section .sponsorship-level-name {
@@ -211,7 +216,7 @@
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   width: 100vw;
-  bottom: 0;
+  bottom: -1px;
 }
 
 * main .contact-section h2 {
@@ -286,5 +291,56 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+* footer .footer-top-wave {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+
+@media only screen and (min-width: 800px) {
+  section {
+    padding: 0 20%;
+  }
+  .team-section .member-wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+  }
+  .team-section .member-wrapper .member {
+    margin: 0px 15px;
+  }
+  .team-section .member-wrapper .member img {
+    height: 150px;
+  }
+  .sponsorships-section {
+    height: 650px;
+  }
+  .sponsorships-section .sponsorship-content-container {
+    padding-top: 90px;
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+  }
+  .sponsorships-section .sponsorship-content-container .sponsorship-levels-wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+  }
+  .sponsorships-section .sponsorship-content-container .sponsorship-levels-wrapper .sponsorship-level {
+    margin: 0 20px;
+    min-width: 170px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .sponsorships-section {
+    height: 900px;
+  }
+  .sponsorships-section .sponsorship-content-container {
+    padding-top: 200px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
