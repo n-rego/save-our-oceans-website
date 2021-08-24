@@ -27,7 +27,7 @@
 * .hero-section {
   margin-top: unset;
   position: relative;
-  height: 85vh;
+  height: 65vh;
   text-align: center;
   background-color: brown;
   color: white !important;
@@ -230,6 +230,11 @@
   bottom: -1px;
 }
 
+* main .contact-section .contact-content-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 * main .contact-section h2 {
   margin-bottom: 30px;
 }
@@ -313,6 +318,15 @@
   section {
     padding: 0 20%;
   }
+  .mission-section {
+    height: 550px;
+  }
+  .mission-section .mission-content-container {
+    padding-top: 90px;
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+  }
   .team-section .member-wrapper {
     display: -ms-grid;
     display: grid;
@@ -326,7 +340,7 @@
     height: 150px;
   }
   .sponsorships-section {
-    height: 650px;
+    height: 550px;
   }
   .sponsorships-section .sponsorship-content-container {
     padding-top: 90px;
@@ -343,15 +357,6 @@
   .sponsorships-section .sponsorship-content-container .sponsorship-levels-wrapper .sponsorship-level {
     margin: 0 20px;
     min-width: 170px;
-  }
-}
-
-@media only screen and (min-width: 1300px) {
-  .sponsorships-section {
-    height: 900px;
-  }
-  .sponsorships-section .sponsorship-content-container {
-    padding-top: 200px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
