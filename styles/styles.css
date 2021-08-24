@@ -70,8 +70,8 @@
   -webkit-transform-origin: center;
           transform-origin: center;
   left: 50%;
-  -webkit-transform: translate(-50%) rotate(180deg);
-          transform: translate(-50%) rotate(180deg);
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
   width: 100vw;
   bottom: -1%;
 }
@@ -208,6 +208,17 @@
   font-weight: 500;
 }
 
+* main .sponsorships-section .sponsor-top-wave {
+  position: absolute;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  left: 50%;
+  -webkit-transform: translate(-50%) rotate(180deg);
+          transform: translate(-50%) rotate(180deg);
+  width: 100vw;
+  top: -1px;
+}
+
 * main .sponsorships-section .sponsor-bottom-wave {
   position: absolute;
   -webkit-transform-origin: center;
@@ -294,8 +305,8 @@
 }
 
 * footer .footer-top-wave {
-  -webkit-transform: translateY(-1px);
-          transform: translateY(-1px);
+  -webkit-transform: translateY(-1px) rotate(180deg);
+          transform: translateY(-1px) rotate(180deg);
 }
 
 @media only screen and (min-width: 800px) {
