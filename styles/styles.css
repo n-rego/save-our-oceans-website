@@ -238,6 +238,8 @@
 }
 
 * main .contact-section .contact-btn {
+  display: block;
+  text-align: center;
   margin-top: 10px;
   border-radius: 8px;
   padding: 10px 0;
@@ -245,6 +247,7 @@
   color: white;
   background-color: #006E9D;
   border: unset;
+  cursor: pointer;
 }
 
 * main .contact-section .socials {

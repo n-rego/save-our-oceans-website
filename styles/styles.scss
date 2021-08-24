@@ -232,6 +232,8 @@ $main-color: #006E9D;
          }
    
          .contact-btn {
+            display: block;
+            text-align: center;
             margin-top: 10px;
             border-radius: 8px;
             padding: 10px 0;
@@ -239,6 +241,7 @@ $main-color: #006E9D;
             color: white;
             background-color: $main-color;
             border: unset;
+            cursor: pointer;
          }
    
          .socials {

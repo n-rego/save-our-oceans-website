@@ -12,6 +12,7 @@
    <link rel="icon" href="https://cinesailing.com/wp-content/uploads/2020/04/cropped-icon-1-192x192.png" sizes="192x192">
 
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="/js/index.js"></script>
    <title>Save Our Oceans</title>
 </head>
 <body>
@@ -21,6 +22,8 @@
       <p>A team project to run a transalantic solo race campaign.</p>
 
       <a class="support-btn" href="#sponsorships-section">Support Us</a>
+
+      <br>
 
       <div class="know-more-anchor">
          <p>Want to Know more?</p>
@@ -166,13 +169,11 @@
       <section class="contact-section" id="contact-section">
          <h2>CONTACT US</h2>
          <form action="">
-            <label for="email-input">Email</label>
-            <input id="email-input" type="email" name="email-input">
 
             <label for="message-input">Message</label>
             <input id="message-input" type="text" name="message-input">
 
-            <input class="contact-btn" type="submit" placeholder="Send Email" value="Send Email">
+            <a class="contact-btn" id="contact-btn" onclick="onSendEmail()">Send Email</a>
          </form>
 
          <div class="socials">
