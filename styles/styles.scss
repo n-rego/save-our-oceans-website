@@ -73,7 +73,7 @@ $main-color: #006E9D;
          transform-origin: center;
          left: 50%;
          transform: translate(-50%);
-         width: 100vw;
+         width: 100%;
          bottom: -1%;
          
       }
@@ -95,7 +95,7 @@ $main-color: #006E9D;
             transform-origin: center;
             left: 50%;
             transform: translate(-50%) rotate(180deg);
-            width: 100vw;
+            width: 100%;
             top: -1px;
          }
    
@@ -124,7 +124,7 @@ $main-color: #006E9D;
             transform-origin: center;
             left: 50%;
             transform: translate(-50%);
-            width: 100vw;
+            width: 100%;
             bottom: -1px;
          }
       }
@@ -167,7 +167,7 @@ $main-color: #006E9D;
             transform-origin: center;
             left: 50%;
             transform: translate(-50%);
-            width: 100vw;
+            width: 100%;
             top: -1px;
          }
    
@@ -210,7 +210,7 @@ $main-color: #006E9D;
             transform-origin: center;
             left: 50%;
             transform: translate(-50%) rotate(180deg);
-            width: 100vw;
+            width: 100%;
             top: -1px;
          }
    
@@ -219,7 +219,7 @@ $main-color: #006E9D;
             transform-origin: center;
             left: 50%;
             transform: translate(-50%);
-            width: 100vw;
+            width: 100%;
             bottom: -1px;
             
          }
