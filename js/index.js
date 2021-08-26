@@ -1,4 +1,4 @@
-const email = "nuno.rego@outlook.pt";
+const email = "andre@cinesailing.com";
 
 const onSendEmail = () => {
    let message = document.getElementById("message-input");
