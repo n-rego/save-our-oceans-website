@@ -315,11 +315,14 @@
 }
 
 @media only screen and (min-width: 800px) {
+  h2, h1 {
+    font-size: 3em !important;
+  }
   section {
     padding: 0 20%;
   }
   .mission-section {
-    height: 550px;
+    height: 650px;
   }
   .mission-section .mission-content-container {
     padding-top: 90px;
@@ -340,7 +343,7 @@
     height: 150px;
   }
   .sponsorships-section {
-    height: 550px;
+    height: 600px;
   }
   .sponsorships-section .sponsorship-content-container {
     padding-top: 90px;

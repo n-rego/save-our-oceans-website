@@ -309,12 +309,17 @@ $main-color: #006E9D;
 }
 
 @media only screen and (min-width: 800px) {
+
+   h2, h1 {
+      font-size: 3em !important;
+   }
+
    section {
       padding: 0 20%;
    }
 
    .mission-section {
-      height: 550px;
+      height: 650px;
 
       .mission-content-container {
          
@@ -340,7 +345,7 @@ $main-color: #006E9D;
    }
 
    .sponsorships-section {
-      height: 550px;
+      height: 600px;
 
       .sponsorship-content-container {
          padding-top: 90px;
